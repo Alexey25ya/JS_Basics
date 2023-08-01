@@ -37,6 +37,7 @@ console.log(user);
 
 const arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
 const arr2 = [1, 2, 3, 4, 5, 6, 7];
+week = {};
 if (arr1.length !== arr2.length) {
     console.log("Длины массивов не совпадают");
 } else {
@@ -44,8 +45,8 @@ if (arr1.length !== arr2.length) {
     for (let i = 0; i < arr2.length; i++) {
         week[arr2[i]] = arr1[i];
     }
-    console.log(week);
 }
+console.log(week);
 
 const obj = { x: 1, y: 2, z: 3 };
 for (let key in obj) {

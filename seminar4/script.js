@@ -208,10 +208,10 @@ for (i = 0; i < 2; i++) {
 console.log(dualMass1);
 
 const arr5 = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3];
-let counte = 0;
+let counter = 0;
 for (i = 0; i < arr5.length; i++) {
     if (arr5[i] === 3) {
-        counte++;
+        counter++;
     }
 }
 console.log(counte);
